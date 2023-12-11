@@ -13,7 +13,7 @@
     "slash_commands": [
       {
         "command": "/대나무숲",
-        "url": "https://{replace_this}/slack/events",
+        "url": "https://secret-bott.herokuapp.com/slack/events",
         "description": "새 익명 메시지 보내기",
         "should_escape": true
       }
@@ -26,12 +26,12 @@
   },
   "settings": {
     "event_subscriptions": {
-      "request_url": "https://{replace_this}/slack/events",
+      "request_url": "https://secret-bott.herokuapp.com/slack/events",
       "bot_events": ["app_mention", "message.channels"]
     },
     "interactivity": {
       "is_enabled": true,
-      "request_url": "https://{replace_this}/slack/events"
+      "request_url": "https://secret-bott.herokuapp.com/slack/events"
     },
     "org_deploy_enabled": false,
     "socket_mode_enabled": false,
